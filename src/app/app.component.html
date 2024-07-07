@@ -1,141 +1,3 @@
-<!-- <div>
-   <app-dashboard></app-dashboard>
-</div> -->
-
-<!-- <div class="navbar">
-   <img src="https://i.ibb.co/F7qnqsm/comviva-logo-1.png" alt="comviva-logo-1">
-   <span class="last-login">Last login : </span>
-   <span class="date">12 DEC 2020 5:00pm</span>
-   <div class="notification">
-     <img src="https://i.ibb.co/sbmqFXw/Group-2979.png" alt="notification">
-   </div>
-   <div class="user-info" (click)="toggleDropdown()">
-     <img src="https://i.ibb.co/1G23cfN/Mask-group.png" alt="pfp" class="profile-pic">
-     <div class="user-details">
-       <span>James Smith</span>
-       <span class="role">Admin</span>
-     </div>
-   </div>
-   <div class="dropdown-menu" *ngIf="dropdownOpen">
-     <ul>
-       <li (click)="navigateToProfile()"><img src="https://i.ibb.co/5j29hfd/Screenshot-2024-07-05-121149.png" alt="Profile Icon">Profile details</li>
-       <li><img src="https://i.ibb.co/b6v6PPB/Screenshot-2024-07-05-121159.png" alt="Settings Icon">Settings</li>
-       <li><img src="https://i.ibb.co/r6bKtCL/Screenshot-2024-07-05-121850.png" alt="Logout Icon">Logout</li>
-     </ul>
-   </div>
- </div>
- 
- <div class="container">
-   <div class="sidebar">
-     <ul>
-       <div class="dashboard">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="active">Dashboard</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/58Gpycv/Icon-feather-users.png" alt="Icon-feather-users">
-         <li class="icon-name">User Management</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/JmPvJWC/Screenshot-2024-07-05-073836.png" alt="Approval-Management">
-         <li class="icon-name">Approval Management</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/16VCsR0/Screenshot-2024-07-05-074635.png" alt="Authorisation-Profile">
-         <li class="icon-name">Authorisation Profile</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/6Y6vBDr/Vector.png" alt="Vector">
-         <li class="icon-name">Transfer Control Profile</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/h2zXHc0/Vector-1.png" alt="Vector-1">
-         <li class="icon-name">Reconciliation</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/TL2V0jF/Group-10040.png" alt="Group-10040">
-         <li class="icon-name">Bulk Operations</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/FK6Lw6H/Icon-feather-shield.png" alt="Icon-feather-shield">
-         <li class="icon-name">Security Profile</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/7Wy8r9G/history.png" alt="history">
-         <li class="icon-name">Session Management</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Mobiquity Circles</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">System Configuration and Preferences</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Admin Transaction</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Banner Management</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Notification Management</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Transfer Rules</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Bundle Packs</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Dispute Tracker</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Master</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Domain & Category Management</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Exchange Rates</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Identical Transaction Criterion</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Unclaimed Money Settlement</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Maintenance Fee Profile</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">New Customer Commission Profile</li>
-       </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">My Activity</li>
-       </div>
-     </ul>
-   </div>
- 
-   <div class="main-content">
-     <router-outlet></router-outlet>
-   </div>
- </div>
-  -->
 
   <div class="navbar">
    <img src="https://i.ibb.co/F7qnqsm/comviva-logo-1.png" alt="comviva-logo-1" class="logo">
@@ -163,105 +25,114 @@
  <div class="container">
    <div class="sidebar">
      <ul>
-       <div class="dashboard">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="active">Dashboard</li>
+       <div class="icons" (click)="toggleSubMenu('dashboard')">
+         <img src="https://i.ibb.co/p3PwjN0/dashboard-1.png" alt="dashboard-1">
+         <li [class.active]="activeMenu === 'dashboard'" (click)="navigateTo('dashboard')">Dashboard</li>
        </div>
-       <div class="icons">
+       <div class="icons" (click)="toggleSubMenu('user-management')">
          <img src="https://i.ibb.co/58Gpycv/Icon-feather-users.png" alt="Icon-feather-users">
-         <li class="icon-name">User Management</li>
+         <li [class.active]="activeMenu === 'user-management'">User Management</li>
        </div>
-       <div class="icons">
+       <div *ngIf="activeMenu === 'user-management'">
+         <div class="sub-menu">
+           <li (click)="navigateTo('register')">Register</li>
+           <li (click)="navigateTo('manage-users')">Manage Users</li>
+           <li (click)="navigateTo('blacklist-management')">Blacklist Management</li>
+           <li (click)="navigateTo('churn-settlement')">Churn Settlement</li>
+           <li (click)="navigateTo('geography-management')">Geography Management</li>
+         </div>
+       </div>
+       <div class="icons" (click)="toggleSubMenu('approval-management')">
          <img src="https://i.ibb.co/JmPvJWC/Screenshot-2024-07-05-073836.png" alt="Approval-Management">
-         <li class="icon-name">Approval Management</li>
+         <li [class.active]="activeMenu === 'approval-management'">Approval Management</li>
        </div>
-       <div class="icons">
+       <div class="icons" (click)="toggleSubMenu('authorisation-profile')">
          <img src="https://i.ibb.co/16VCsR0/Screenshot-2024-07-05-074635.png" alt="Authorisation-Profile">
-         <li class="icon-name">Authorisation Profile</li>
+         <li [class.active]="activeMenu === 'authorisation-profile'">Authorisation Profile</li>
        </div>
-       <div class="icons">
+       <div class="icons" (click)="toggleSubMenu('transfer-control-profile')">
          <img src="https://i.ibb.co/6Y6vBDr/Vector.png" alt="Vector">
-         <li class="icon-name">Transfer Control Profile</li>
+         <li [class.active]="activeMenu === 'transfer-control-profile'">Transfer Control Profile</li>
        </div>
-       <div class="icons">
+       <div class="icons" (click)="toggleSubMenu('reconciliation')">
          <img src="https://i.ibb.co/h2zXHc0/Vector-1.png" alt="Vector-1">
-         <li class="icon-name">Reconciliation</li>
+         <li [class.active]="activeMenu === 'reconciliation'">Reconciliation</li>
        </div>
-       <div class="icons">
+       <div class="icons" (click)="toggleSubMenu('bulk-operations')">
          <img src="https://i.ibb.co/TL2V0jF/Group-10040.png" alt="Group-10040">
-         <li class="icon-name">Bulk Operations</li>
+         <li [class.active]="activeMenu === 'bulk-operations'">Bulk Operations</li>
        </div>
-       <div class="icons">
+       <div class="icons" (click)="toggleSubMenu('security-profile')">
          <img src="https://i.ibb.co/FK6Lw6H/Icon-feather-shield.png" alt="Icon-feather-shield">
-         <li class="icon-name">Security Profile</li>
+         <li [class.active]="activeMenu === 'security-profile'">Security Profile</li>
        </div>
-       <div class="icons">
+       <div class="icons" (click)="toggleSubMenu('session-management')">
          <img src="https://i.ibb.co/7Wy8r9G/history.png" alt="history">
-         <li class="icon-name">Session Management</li>
+         <li [class.active]="activeMenu === 'session-management'">Session Management</li>
        </div>
-       <div class="icons">
+       <div class="icons" (click)="toggleSubMenu('mobiquity-circles')">
          <img src="https://i.ibb.co/GkSFpn6/Group.png" alt="Group">
-         <li class="icon-name">Mobiquity Circles</li>
+         <li [class.active]="activeMenu === 'mobiquity-circles'">Mobiquity Circles</li>
        </div>
-       <div class="icons">
+       <div class="icons" (click)="toggleSubMenu('system-configuration')">
          <img src="https://i.ibb.co/x3M4v84/profile.png" alt="profile">
-         <li class="icon-name">System Configuration and Preferences</li>
+         <li [class.active]="activeMenu === 'system-configuration'">System Configuration and Preferences</li>
        </div>
-       <div class="icons">
+       <div class="icons" (click)="toggleSubMenu('admin-transaction')">
          <img src="https://i.ibb.co/gSNgtcC/profile.png" alt="profile">
-         <li class="icon-name">Admin Transaction</li>
+         <li [class.active]="activeMenu === 'admin-transaction'">Admin Transaction</li>
        </div>
-       <div class="icons">
+       <div class="icons" (click)="toggleSubMenu('banner-management')">
          <img src="https://i.ibb.co/m9gWDMx/Group-9362.png" alt="Group-9362">
-         <li class="icon-name">Banner Management</li>
+         <li [class.active]="activeMenu === 'banner-management'">Banner Management</li>
        </div>
-       <div class="icons">
+       <div class="icons" (click)="toggleSubMenu('notification-management')">
          <img src="https://i.ibb.co/72jNv77/Group-9605.png" alt="Group-9605">
-         <li class="icon-name">Notification Management</li>
+         <li [class.active]="activeMenu === 'notification-management'">Notification Management</li>
        </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Transfer Rules</li>
+       <div class="icons" (click)="toggleSubMenu('transfer-rules')">
+         <img src="https://i.ibb.co/KVVJz5K/Group-10021.png" alt="Group-10021">
+         <li [class.active]="activeMenu === 'transfer-rules'">Transfer Rules</li>
        </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Bundle Packs</li>
+       <div class="icons" (click)="toggleSubMenu('bundle-packs')">
+         <img src="https://i.ibb.co/Jxkt7N1/Vector-2.png" alt="Vector-2">
+         <li [class.active]="activeMenu === 'bundle-packs'">Bundle Packs</li>
        </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Dispute Tracker</li>
+       <div class="icons" (click)="toggleSubMenu('dispute-tracker')">
+         <img src="https://i.ibb.co/ZLK4W8M/Group-10093.png" alt="Group-10093">
+         <li [class.active]="activeMenu === 'dispute-tracker'">Dispute Tracker</li>
        </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Master</li>
+       <div class="icons" (click)="toggleSubMenu('master')">
+         <img src="https://i.ibb.co/q97kryZ/Vector-3.png" alt="Vector-3">
+         <li [class.active]="activeMenu === 'master'">Master</li>
        </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Domain & Category Management</li>
+       <div class="icons" (click)="toggleSubMenu('domain-category-management')">
+         <img src="https://i.ibb.co/hX1x8bk/Group-10089.png" alt="Group-10089">
+         <li [class.active]="activeMenu === 'domain-category-management'">Domain & Category Management</li>
        </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Exchange Rates</li>
+       <div class="icons" (click)="toggleSubMenu('exchange-rates')">
+         <img src="https://i.ibb.co/q5C5j4Y/Group-10089-1.png" alt="Group-10089-1">
+         <li [class.active]="activeMenu === 'exchange-rates'">Exchange Rates</li>
        </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Identical Transaction Criterion</li>
+       <div class="icons" (click)="toggleSubMenu('identical-transaction-criterion')">
+         <img src="https://i.ibb.co/Gx27BKH/Group-10090.png" alt="Group-10090">
+         <li [class.active]="activeMenu === 'identical-transaction-criterion'">Identical Transaction Criterion</li>
        </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Unclaimed Money Settlement</li>
+       <div class="icons" (click)="toggleSubMenu('unclaimed-money-settlement')">
+         <img src="https://i.ibb.co/zS8mnk2/Group-10093-1.png" alt="Group-10093-1">
+         <li [class.active]="activeMenu === 'unclaimed-money-settlement'">Unclaimed Money Settlement</li>
        </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">Maintenance Fee Profile</li>
+       <div class="icons" (click)="toggleSubMenu('maintenance-fee-profile')">
+         <img src="https://i.ibb.co/TYx2rz2/Group-10093-2.png" alt="Group-10093-2">
+         <li [class.active]="activeMenu === 'maintenance-fee-profile'">Maintenance Fee Profile</li>
        </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">New Customer Commission Profile</li>
+       <div class="icons" (click)="toggleSubMenu('new-customer-commission-profile')">
+         <img src="https://i.ibb.co/cLzjbjk/Group-10093-3.png" alt="Group-10093-3">
+         <li [class.active]="activeMenu === 'new-customer-commission-profile'">New Customer Commission Profile</li>
        </div>
-       <div class="icons">
-         <img src="https://i.ibb.co/L1d77XS/dashboard-2x.png" alt="dashboard-2x">
-         <li class="icon-name">My Activity</li>
+       <div class="icons" (click)="toggleSubMenu('my-activity')">
+         <img src="https://i.ibb.co/YjyGGFv/Page-1.png" alt="Page-1">
+         <li [class.active]="activeMenu === 'my-activity'">My Activity</li>
        </div>
      </ul>
    </div>

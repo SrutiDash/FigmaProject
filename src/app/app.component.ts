@@ -1,13 +1,4 @@
-// import { Component } from '@angular/core';
 
-// @Component({
-//   selector: 'app-root',
-//   templateUrl: './app.component.html',
-//   styleUrl: './app.component.css'
-// })
-// export class AppComponent {
-//   title = 'my-figma-ui';
-// }
 
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
@@ -19,6 +10,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   dropdownOpen = false;
+  activeMenu: string | null = null;
 
   constructor(private router: Router) {}
 
@@ -29,5 +21,13 @@ export class AppComponent {
   navigateToProfile() {
     this.router.navigate(['/profile-details']);
     this.dropdownOpen = false;
+  }
+
+  toggleSubMenu(menu: string) {
+    this.activeMenu = this.activeMenu === menu ? null : menu;
+  }
+
+  navigateTo(route: string) {
+    this.router.navigate([`/${route}`]);
   }
 }
